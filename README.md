@@ -14,7 +14,7 @@ The game takes place on a grid whose width and height are both measured in tiles
 
 The origin is at the top-left corner. The values on the x-axis increase from left to right. The values on the y-axis increase from top to bottom. Below is an example of the tile locations for a game board whose width and height are both 6.
 
-https://q.utoronto.ca/courses/249810/files/19434654/preview
+![game_board](https://user-images.githubusercontent.com/94993837/187969771-6a69f1a5-2f68-4eb5-b6e6-08a6583d506c.jpeg)
 
 Each character takes up exactly one tile, except that a raccoon can crawl inside an open garbage can, in which case there will be two characters (a raccoon and a garbage can) on the same tile.
 
@@ -30,7 +30,11 @@ The player moves using the four arrow keys and pushes around the recycling bins 
 
 Recycling bins can’t move autonomously but can be pushed by the main player in the hope of trapping the raccoons. When pushed by the main player, a recycling bin moves in the same direction as the player. If the new tile happens to be occupied with another recycling bin, this recycling bin is also moved in the same direction as well. If there is a row or column of recycling bins being pushed, they all move. Here is a little example.
 
-bin_move.gif
+
+
+
+
+
 
 A raccoon is considered trapped if it is surrounded in all four directions (diagonals don’t matter) by recycling bins, other raccoons (including ones in garbage cans), the player, or the border of the game board.
 
