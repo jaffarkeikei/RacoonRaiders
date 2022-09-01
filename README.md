@@ -32,7 +32,7 @@ Recycling bins can’t move autonomously but can be pushed by the main player in
 
 
 
-
+![bin_move](https://user-images.githubusercontent.com/94993837/187970229-67dd3634-6df4-4e09-89df-a6e4d295abcf.gif)
 
 
 
@@ -44,8 +44,11 @@ When the game ends, your score is displayed. The score is determined based on th
 
 Note that sometimes you may get into a game state where it will become impossible for the game to end (i.e. you can’t possibly trap the remaining raccoons). You will just need to close the game window. In this case, you never see a score.
 
+
+
 The program
-The program for this assignment consists of the following classes in a1.py:
+
+The program consists of the following classes:
 
 Character: An abstract class that represents any character in the game. All characters must define move and get_char methods.
 
@@ -63,7 +66,4 @@ Player: The player that the user can move around via the arrow keys on their key
 
 GameBoard: The game board that keeps track of the game objects. In this board, there is at most one item on each tile, with this exception: A raccoon can climb into an unlocked garbage can.
 
-The required public interfaces to every class, method, and function have been designed, but we have left some private implementation decisions up to you.
-
-The file a1_game.py is client code for the code you complete in a1.py and handles the actual playing of the game. You do NOT need to write any code in a1_game.py, but you can run it as you complete the assignment to see your progress towards the working game!
 
