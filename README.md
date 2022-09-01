@@ -2,15 +2,19 @@ In this project, there is a game that is somewhat similar to [Rodent’s Revenge
 
 During the game, raccoons try to climb into one of the available garbage cans. The main player aims to prevent the raccoons from reaching the garbage cans by trapping them using recycling bins.
 
-Here is a little demo of how the game will look once you finish the assignment:
+Here is a little demo of how the game will look like:
 
-![file:///Users/jaffars/Downloads/animation.gif...]()
+
+
+![animation](https://user-images.githubusercontent.com/94993837/187968590-4eec1d38-8d87-419e-8f9a-ad66e3566129.gif)
+
+
 
 The game takes place on a grid whose width and height are both measured in tiles (also called squares). In the example above, the grid has width 8 and height 6.
 
 The origin is at the top-left corner. The values on the x-axis increase from left to right. The values on the y-axis increase from top to bottom. Below is an example of the tile locations for a game board whose width and height are both 6.
 
-game board showing tile coordinates
+https://q.utoronto.ca/courses/249810/files/19434654/preview
 
 Each character takes up exactly one tile, except that a raccoon can crawl inside an open garbage can, in which case there will be two characters (a raccoon and a garbage can) on the same tile.
 
