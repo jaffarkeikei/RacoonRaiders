@@ -1,3 +1,5 @@
+# Racoon Raiders
+
 In this project, there is a game that is somewhat similar to [Rodent’s Revenge](https://en.wikipedia.org/wiki/Rodent%27s_Revenge).
 
 During the game, raccoons try to climb into one of the available garbage cans. The main player aims to prevent the raccoons from reaching the garbage cans by trapping them using recycling bins.
@@ -46,7 +48,7 @@ Note that sometimes you may get into a game state where it will become impossibl
 
 
 
-The program
+## The program
 
 The program consists of the following classes:
 
