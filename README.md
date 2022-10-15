@@ -4,7 +4,7 @@ In this project, there is a game that is somewhat similar to [Rodent’s Revenge
 
 During the game, raccoons try to climb into one of the available garbage cans. The main player aims to prevent the raccoons from reaching the garbage cans by trapping them using recycling bins.
 
-Here is a little demo of how the game will look like:
+Here is a little demo of how the game looks like:
 
 
 
